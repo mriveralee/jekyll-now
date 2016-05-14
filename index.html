@@ -3,10 +3,24 @@ layout: default
 ---
 
 <div class="posts">
+  <h1>Projects</h1>
+  {% for project in site.projects %}
+    <article class="post">
+
+      <h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
+
+      <div class="entry">
+        {{ project.excerpt }}
+      </div>
+
+      <a href="{{ project.baseurl }}{{ project.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+  <h1>Blog Posts</h1>
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}

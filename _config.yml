@@ -51,6 +51,15 @@ url: http://www.mikeriv.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Logic for a projects collection page
+collections:
+  posts:
+    permalink: /blog/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

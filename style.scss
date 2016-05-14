@@ -46,9 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  a {
-    color: inherit;
-  }
 }
 
 h2 {
@@ -69,11 +66,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $hotPink;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $hotPink;
+    text-decoration: underline;
   }
 }
 
@@ -108,6 +106,8 @@ strong, b {
 
 img {
   max-width: 100%;
+  display:block;
+  margin: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -229,10 +229,13 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    &:hover, &:active {
+      color: $gray;
+    }
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $gray;
     }
   }
 }
