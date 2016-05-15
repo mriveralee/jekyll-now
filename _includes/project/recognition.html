@@ -1,0 +1,13 @@
+{% if page.recognition %}
+  <h2>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    Recognition
+  </h2>
+  <ul>
+    {% for recognition in page.recognition %}
+     <li>
+       {{ recognition }}
+     </li>
+     {% endfor %}
+   </ul>
+{% endif %}
