@@ -13,6 +13,8 @@ $fontSizeS: 16px;
 $fontSizeXS: 14px;
 $fontSizeXXS: 12px;
 
+$bodyLineHeight: 1.5;
+
 /*
    Typography
    ========================================================================== */
@@ -24,6 +26,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
+$medium-serif               : medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
 $serif                      : Georgia, Times, serif;
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;

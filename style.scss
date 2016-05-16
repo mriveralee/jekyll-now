@@ -20,13 +20,14 @@ html {
 
 body {
 	background: $white;
-  font: $fontSizeXXL/1.4 $helvetica;
+  font: $fontSizeL $sans-serif; // $medium-serif;
+  line-height: $bodyLineHeight;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 760px;
   padding: 0 10px;
   width: 100%;
 }
@@ -192,7 +193,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $medium-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;

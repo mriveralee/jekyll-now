@@ -3,11 +3,11 @@
     <i class="fa fa-external-link" aria-hidden="true"></i>
     More Information
   </h2>
-    <ul>
-      {% for info in page.moreInfo  %}
-        <li>
-          <p>{{ info }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+  <ul>
+    {% for info in page.moreInfo  %}
+      <li>
+        <a href="{{ info.url }}" target="_blank"> {{ info.title }} </a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endif %}
