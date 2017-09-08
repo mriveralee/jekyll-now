@@ -20,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  font: $fontSizeL $sans-serif; // $medium-serif;
+  font: $fontSizeM $sans-serif; // $medium-serif;
   line-height: $bodyLineHeight;
   color: $darkGray;
 }
@@ -271,6 +271,16 @@ nav {
     text-transform: uppercase;
     font-size: $fontSizeXS;
   }
+
+  .preview-image {
+    position: relative;
+    display: block;
+    float: left;
+    max-width: 250px; //300px
+    height: auto;
+    padding: 0.8em 0.8em 0 0;
+  }
+
 }
 
 .wrapper-footer {

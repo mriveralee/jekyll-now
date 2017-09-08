@@ -2,12 +2,14 @@
 {% for project in site.projects %}
   <article class="post text-justify">
 
+
     <h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
-
     <div class="entry">
-      {{ project.excerpt }}
+      <img class="preview-image" src="{{ project.previewImage }}" />
+      <div class="">
+        {{ project.excerpt }}
+      </div>
     </div>
-
   <a href="{{ project.baseurl }}{{ project.url }}" class="read-more"> >> Read More</a>
   </article>
 {% endfor %}

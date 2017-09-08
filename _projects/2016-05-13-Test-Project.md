@@ -2,8 +2,8 @@
 layout: project
 title: Tracheal Aire
 subtitle: Patient-specific 3D Printable Intubating Airways
+previewImage: /images/projects/tracheal-aire/6.png
 date: January 2014
-
 tags: [3D Printing, Williams Intubating Airway, OpenJSCAD]
 recognition: [
   'Won 1st place in the [STA 2014 Engineering Challenge](http://www.stahq.org/events/annual-meeting/engineering-challenge/)',
